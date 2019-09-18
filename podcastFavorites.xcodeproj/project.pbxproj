@@ -18,6 +18,8 @@
 		55017ECD2332CB5100072A09 /* SearchDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55017ECC2332CB5100072A09 /* SearchDVC.swift */; };
 		55017ECF2332CB5E00072A09 /* FavoritesDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55017ECE2332CB5E00072A09 /* FavoritesDVC.swift */; };
 		55017ED12332CB8400072A09 /* SearchCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55017ED02332CB8400072A09 /* SearchCustomCell.swift */; };
+		55017ED32332CE2D00072A09 /* PodcastSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55017ED22332CE2D00072A09 /* PodcastSearch.swift */; };
+		55017ED62332D63400072A09 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55017ED52332D63400072A09 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		55017ECC2332CB5100072A09 /* SearchDVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDVC.swift; sourceTree = "<group>"; };
 		55017ECE2332CB5E00072A09 /* FavoritesDVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesDVC.swift; sourceTree = "<group>"; };
 		55017ED02332CB8400072A09 /* SearchCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCustomCell.swift; sourceTree = "<group>"; };
+		55017ED22332CE2D00072A09 /* PodcastSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastSearch.swift; sourceTree = "<group>"; };
+		55017ED52332D63400072A09 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				55017EC72332C70A00072A09 /* Helpers */,
+				55017ED42332CE3100072A09 /* Model */,
 				55017EC22332C6B100072A09 /* Control */,
 				55017EC32332C6D000072A09 /* View */,
 				55017EC42332C6E700072A09 /* supportFiles */,
@@ -110,8 +115,17 @@
 			children = (
 				55017EC82332C73000072A09 /* AppError.swift */,
 				55017EC52332C70500072A09 /* NetworkHelper.swift */,
+				55017ED52332D63400072A09 /* APIClient.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		55017ED42332CE3100072A09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55017ED22332CE2D00072A09 /* PodcastSearch.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,8 +202,10 @@
 				55017EC92332C73000072A09 /* AppError.swift in Sources */,
 				55017ECF2332CB5E00072A09 /* FavoritesDVC.swift in Sources */,
 				55017ED12332CB8400072A09 /* SearchCustomCell.swift in Sources */,
+				55017ED62332D63400072A09 /* APIClient.swift in Sources */,
 				55017ECD2332CB5100072A09 /* SearchDVC.swift in Sources */,
 				55017EB32332C69C00072A09 /* SearchViewController.swift in Sources */,
+				55017ED32332CE2D00072A09 /* PodcastSearch.swift in Sources */,
 				55017EC62332C70500072A09 /* NetworkHelper.swift in Sources */,
 				55017ECB2332CB3600072A09 /* FavoritesViewController.swift in Sources */,
 				55017EB12332C69C00072A09 /* AppDelegate.swift in Sources */,
